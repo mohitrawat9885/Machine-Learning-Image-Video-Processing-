@@ -14,6 +14,6 @@ Restoredimg = cv2.filter2D(blur, -1, sharpen_kernel)
 
 cv2.imshow('orimg',image)
 cv2.imshow('restoredimg.png',Restoredimg)
-#cv2.imwrite('restoredimg.png',Restoredimg)
+
 cv2.imshow('blur',blur)
 cv2.waitKey(0)

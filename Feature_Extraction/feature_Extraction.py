@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
+
 from skimage.io import imread, imshow
 from skimage import io
 
@@ -17,5 +17,4 @@ print(image1.size)
 print(image2.shape)
 print(image2.size)
 
-pixel_feat1 = np.reshape(image2, (312 * 252))
-pixel_feat1
+
